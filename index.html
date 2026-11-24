@@ -4,9 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sunshine and Storm – Cozy, playful mobile games</title>
-<meta name="description" content="Sunshine and Storm makes cozy, playful mobile games, including Jolly Jars, a Christmas sort puzzle with an advent calendar.">
+<meta name="description" content="Sunshine and Storm makes cozy, playful mobile games: Jolly Jars, a Christmas sort puzzle with an advent calendar, Sweet Slide, a shoot-and-merge drinks game, and Maze Thief, a sneaky maze puzzle.">
 <link rel="icon" href="symbol.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/Fredoka.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,34 +17,68 @@
   <p>Cozy, playful games for every kind of day.</p>
 </header>
 <nav>
-  <a href="index.html">Games</a>
+  <a href="#games">Games</a>
   <a href="privacy.html">Privacy Policy</a>
   <a href="#support">Support</a>
 </nav>
 <main>
-  <h2>Our games</h2>
+  <h2 id="games">Our games</h2>
   <div class="games">
-    <div class="game">
-      <img src="jolly-jars-icon.png" alt="Jolly Jars app icon">
-      <div>
-        <h3>Jolly Jars</h3>
-        <span class="tag">Puzzle</span><span class="tag">Advent calendar</span>
-        <p>Sort festive treats into their jars, open one advent door a day, and decorate a cozy Christmas room as you go.</p>
-        <p><em>Coming soon to Google Play and the App Store.</em></p>
+
+    <article class="game-card">
+      <img class="banner" src="img/jolly-jars.jpg" alt="Jolly Jars app icon: a festive glass jar with a red bow, a Christmas tree, a bauble and a gold star" width="960" height="540">
+      <div class="card-body">
+        <div class="card-head">
+          <h3>Jolly Jars</h3>
+          <span class="status soon">Coming soon</span>
+        </div>
+        <p class="tagline">Christmas Sort &middot; Advent Calendar Puzzle</p>
+        <p>Sort festive treats into their jars, open one advent door a day, and decorate a cozy Christmas room as you go. Every new door brings a fresh puzzle and a new decoration for your room.</p>
+        <span class="tag">Puzzle</span><span class="tag">Advent calendar</span><span class="tag">Cozy</span>
+        <p class="where">Coming to Google Play and the App Store.</p>
       </div>
-    </div>
-    <div class="game">
-      <div>
-        <h3>More on the way</h3>
-        <p>Racing, puzzles and plush-powered battles are in the works. Check back soon!</p>
+    </article>
+
+    <article class="game-card">
+      <img class="banner" src="img/sweet-slide.jpg" alt="Sweet Slide: colourful juices, smoothies and a rainbow sundae on a wooden table at a beach juice bar" width="960" height="540">
+      <div class="card-body">
+        <div class="card-head">
+          <h3>Sweet Slide</h3>
+          <span class="status soon">Coming soon</span>
+        </div>
+        <p class="tagline">Shoot &amp; Merge</p>
+        <p>Aim, slide and shoot drinks down the table. When two matching drinks bump together they merge into something bigger and fancier, from a simple glass of juice all the way up to a rainbow sundae. Fill customer orders, earn coins and build up a magical world of themed shops.</p>
+        <span class="tag">Merge</span><span class="tag">Arcade</span><span class="tag">Casual</span>
+        <p class="where">Coming to Google Play and the App Store.</p>
       </div>
-    </div>
+    </article>
+
+    <article class="game-card">
+      <img class="banner" src="img/maze-thief.jpg" alt="Maze Thief: a cartoon thief with a money bag sneaking across a city skyline at night" width="960" height="540">
+      <div class="card-body">
+        <div class="card-head">
+          <h3>Maze Thief</h3>
+          <span class="status dev">In development</span>
+        </div>
+        <p class="tagline">Sneaky maze puzzles</p>
+        <p>Tiptoe through tricky mazes, grab every diamond and slip out the exit without getting caught. Time your moves around the guards' patrols, switch off the lasers, and use smoke bombs when things get tight.</p>
+        <span class="tag">Stealth</span><span class="tag">Puzzle</span>
+        <p class="where">We're working on it now. Check back for updates!</p>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="more">
+    <h3>More on the way</h3>
+    <p>Racing, zombie-hunting and plush-powered battles are in the works too.</p>
   </div>
 
   <h2 id="support">Support</h2>
   <p>Questions, bug reports or feedback? Email us at
     <a href="mailto:support@sunshineandstorm.com">support@sunshineandstorm.com</a>
     and we'll get back to you as soon as we can. Please include the game name and your device model.</p>
+  <p>Read our <a href="privacy.html">Privacy Policy</a> to see how our games handle your information.</p>
 </main>
 <footer>
   &copy; 2026 Sunshine and Storm &middot; Made in Canada &middot; <a href="privacy.html">Privacy Policy</a>
