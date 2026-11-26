@@ -1,0 +1,71 @@
+{
+  "_about": "Sunshine and Storm game list for the More Games button in every game. A game shows in the OTHER games only when its ios/android status is \"live\" with an App Store / Google Play link. Set enabled to false to hide the button everywhere.",
+  "version": 1,
+  "enabled": true,
+  "games": [
+    {
+      "id": "sweet-slide",
+      "name": "Sweet Slide",
+      "order": 1,
+      "enabled": true,
+      "tagline": {
+        "en": "Shoot and merge sweet drinks and treats for big high scores.",
+        "fr": "Lancez et fusionnez boissons et douceurs pour de gros scores.",
+        "es": "Lanza y fusiona bebidas y dulces para lograr grandes puntuaciones.",
+        "pt": "Lance e combine bebidas e doces para marcar grandes pontuações.",
+        "de": "Schieße und verschmelze süße Drinks und Leckereien für hohe Punktzahlen.",
+        "it": "Lancia e unisci bevande e dolci per punteggi altissimi.",
+        "nl": "Schiet en combineer zoete drankjes en lekkernijen voor hoge scores.",
+        "sv": "Skjut och slå ihop söta drinkar och godsaker för höga poäng.",
+        "da": "Skyd og flet søde drikke og lækkerier for høje point.",
+        "nb": "Skyt og slå sammen søte drikker og godsaker for høye poeng.",
+        "id": "Tembak dan gabungkan minuman dan camilan manis untuk skor tinggi.",
+        "pl": "Strzelaj i łącz słodkie napoje i przysmaki, by bić rekordy.",
+        "tr": "Fırlat ve birleştir: tatlı içecekler ve ikramlarla yüksek skor yap.",
+        "cs": "Střílej a spojuj sladké nápoje a dobroty pro vysoké skóre.",
+        "ro": "Lansează și combină băuturi și dulciuri pentru scoruri mari."
+      },
+      "image": "",
+      "ios": {
+        "status": "coming_soon",
+        "url": ""
+      },
+      "android": {
+        "status": "coming_soon",
+        "url": ""
+      }
+    },
+    {
+      "id": "jolly-jars",
+      "name": "Jolly Jars",
+      "order": 2,
+      "enabled": true,
+      "tagline": {
+        "en": "Sort Christmas treats and open an advent door every day.",
+        "fr": "Triez des friandises de Noël et ouvrez une porte du calendrier de l'Avent chaque jour.",
+        "es": "Ordena dulces navideños y abre una puerta del calendario de Adviento cada día.",
+        "pt": "Organize doces de Natal e abra uma porta do calendário do Advento todos os dias.",
+        "de": "Sortiere Weihnachtsleckereien und öffne jeden Tag ein Adventstürchen.",
+        "it": "Ordina dolcetti natalizi e apri ogni giorno una porta del calendario dell'Avvento.",
+        "nl": "Sorteer kerstlekkernijen en open elke dag een deurtje van de adventskalender.",
+        "sv": "Sortera julgodis och öppna en lucka i adventskalendern varje dag.",
+        "da": "Sortér julelækkerier og åbn en låge i julekalenderen hver dag.",
+        "nb": "Sorter julegodter og åpne en luke i julekalenderen hver dag.",
+        "id": "Urutkan camilan Natal dan buka satu pintu kalender Advent setiap hari.",
+        "pl": "Sortuj świąteczne smakołyki i codziennie otwieraj okienko kalendarza adwentowego.",
+        "tr": "Noel ikramlarını sırala ve her gün bir advent takvimi kapısı aç.",
+        "cs": "Třiď vánoční dobroty a každý den otevři okénko adventního kalendáře.",
+        "ro": "Sortează dulciuri de Crăciun și deschide în fiecare zi o ușiță din calendarul de Advent."
+      },
+      "image": "https://sunshineandstorm.com/jolly-jars-icon.png",
+      "ios": {
+        "status": "coming_soon",
+        "url": "https://apps.apple.com/app/id6839219746"
+      },
+      "android": {
+        "status": "coming_soon",
+        "url": ""
+      }
+    }
+  ]
+}
