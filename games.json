@@ -25,7 +25,7 @@
         "cs": "Střílej a spojuj sladké nápoje a dobroty pro vysoké skóre.",
         "ro": "Lansează și combină băuturi și dulciuri pentru scoruri mari."
       },
-      "image": "",
+      "image": "https://sunshineandstorm.com/img/sweet-slide.jpg",
       "ios": {
         "status": "coming_soon",
         "url": ""
@@ -57,10 +57,42 @@
         "cs": "Třiď vánoční dobroty a každý den otevři okénko adventního kalendáře.",
         "ro": "Sortează dulciuri de Crăciun și deschide în fiecare zi o ușiță din calendarul de Advent."
       },
-      "image": "https://sunshineandstorm.com/jolly-jars-icon.png",
+      "image": "https://sunshineandstorm.com/img/jolly-jars.jpg",
       "ios": {
         "status": "coming_soon",
         "url": "https://apps.apple.com/app/id6839219746"
+      },
+      "android": {
+        "status": "coming_soon",
+        "url": ""
+      }
+    },
+    {
+      "id": "maze-thief",
+      "name": "Maze Thief",
+      "order": 3,
+      "enabled": true,
+      "tagline": {
+        "en": "Tiptoe through tricky mazes and grab every diamond.",
+        "fr": "Faufilez-vous dans des labyrinthes et raflez tous les diamants.",
+        "es": "Muévete a hurtadillas por laberintos y atrapa todos los diamantes.",
+        "pt": "Esgueire-se por labirintos e pegue todos os diamantes.",
+        "de": "Schleiche durch knifflige Labyrinthe und schnapp dir jeden Diamanten.",
+        "it": "Muoviti furtivo nei labirinti e prendi tutti i diamanti.",
+        "nl": "Sluip door lastige doolhoven en pak elke diamant.",
+        "sv": "Smyg genom kluriga labyrinter och ta varje diamant.",
+        "da": "Snig dig gennem snedige labyrinter og snup hver diamant.",
+        "nb": "Snik deg gjennom lure labyrinter og ta hver diamant.",
+        "id": "Menyelinap melewati labirin rumit dan ambil setiap berlian.",
+        "pl": "Skradaj się przez podchwytliwe labirynty i zgarnij każdy diament.",
+        "tr": "Zorlu labirentlerde sessizce ilerle ve tüm elmasları kap.",
+        "cs": "Proplíž se záludnými bludišti a seber každý diamant.",
+        "ro": "Strecoară-te prin labirinturi dificile și ia fiecare diamant."
+      },
+      "image": "https://sunshineandstorm.com/img/maze-thief.jpg",
+      "ios": {
+        "status": "coming_soon",
+        "url": ""
       },
       "android": {
         "status": "coming_soon",
