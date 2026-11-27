@@ -1,0 +1,43 @@
+{
+  "_about": "Jolly Jars remote settings. The game checks this file about twice a day. Change a number and save; delete a line to go back to the game's own value; set enabled to false to ignore the whole file. Difficulty values (colors_..., boss_..., empty_jars, min_solution_moves) apply from the next launch; everything else straight away. capacity, star factors and the advent calendar settings can't be changed here.",
+  "enabled": true,
+  "values": {
+    "empty_jars": 2,
+    "colors_start": 3,
+    "colors_every": 6,
+    "colors_max": 11,
+    "min_solution_moves": 6,
+    "boss_every": 10,
+    "boss_extra_colors": 1,
+    "boss_hidden_layers": 2,
+    "boss_move_factor": 1.45,
+    "boss_moves_min_extra": 6,
+    "level_coins": 10,
+    "boss_coins": 60,
+    "door_coins": 40,
+    "star_bonus_coins": 5,
+    "extra_moves_ad": 5,
+    "extra_moves_coins": 100,
+    "undo_free_per_level": 0,
+    "booster_coin_price": 150,
+    "start_boosters": {
+      "undo": 5,
+      "jar": 2,
+      "shuffle": 2,
+      "eye": 3
+    },
+    "missed_door_coins": 150,
+    "interstitial_every_levels": 3,
+    "interstitial_from_level": 6,
+    "starter_popup_on_open": true,
+    "starter_hours": 48,
+    "xp_per_level": 10,
+    "xp_level_base": 40,
+    "xp_level_step": 20,
+    "level_up_coins": 50,
+    "decor_price_base": 540,
+    "decor_price_step": 0,
+    "set_bonus_coins": 300,
+    "cross_promo": true
+  }
+}
