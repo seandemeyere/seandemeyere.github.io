@@ -1,5 +1,5 @@
 {
-  "_about": "Jolly Jars remote settings. The game checks this file about twice a day. Change a number and save; delete a line to go back to the game's own value; set enabled to false to ignore the whole file. Difficulty values (colors_..., boss_..., empty_jars, min_solution_moves) apply from the next launch; everything else straight away. capacity, star factors and the advent calendar settings can't be changed here.",
+  "_about": "Jolly Jars remote settings. The game checks this file about twice a day. Change a number and save; delete a line to go back to the game's own value; set enabled to false to ignore the whole file. Difficulty values (colors_..., boss_..., empty_jars, min_solution_moves) apply from the next launch; everything else straight away. capacity, star factors and the advent calendar settings can't be changed here. interstitial_after_minutes: an ad can also show after 1 level once this many minutes have passed since the last ad (0 turns it off).",
   "enabled": true,
   "values": {
     "empty_jars": 2,
@@ -29,6 +29,7 @@
     "missed_door_coins": 150,
     "interstitial_every_levels": 3,
     "interstitial_from_level": 6,
+    "interstitial_after_minutes": 5.0,
     "starter_popup_on_open": true,
     "starter_hours": 48,
     "xp_per_level": 10,
